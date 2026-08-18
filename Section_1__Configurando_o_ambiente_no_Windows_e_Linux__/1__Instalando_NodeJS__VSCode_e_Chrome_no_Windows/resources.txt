@@ -1,0 +1,8 @@
+Download Visual Studio Code
+https://code.visualstudio.com/download?_exp_download=fb315fc982
+
+Download Node.js®
+https://nodejs.org/en/download/
+
+Chrome
+https://www.google.com/intl/pt-BR/chrome/
