@@ -1,0 +1,8 @@
+JavaScript Tutorial
+https://www.w3schools.com/js/default.asp
+
+JavaScript
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+ECMA-262
+https://ecma-international.org/publications-and-standards/standards/ecma-262/
