@@ -1,4 +1,4 @@
-{
+{   "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "files.autoSave": "afterDelay",
     "workbench.colorTheme": "OM Theme (No Italic)",
@@ -41,13 +41,5 @@
         79,
     ],
     "workbench.editor.labelFormat": "short",
-    "workbench.settings.applyToAllProfiles": [
-        
-    ],
-	"python.linting.flake8Enabled": true,
-	"python.testing.unittestEnabled": false,
-	"python.linting.mypyEnabled": true,
-    "python.terminal.useEnvFile": true,
-    "python.envFile": "${workspaceFolder}/.env"
 
 }
