@@ -1,0 +1,61 @@
+**************criar submodule local
+cd ./projeto1
+git init
+git remote add origin git@github.com:oscarlmjr/chronos-pomodoro.git
+git remote set-url origin git@github.com:oscarlmjr/chronos-pomodoro.git
+git status > git add . > git commit -m 'Adicionando arquivos e submodule'
+git pull origin main >> --allow-unrelated-histories
+cd ..
+git submodule add ./chronos-pomodoro
+git submodule status
+git submodule set-url chronos-pomodoro git@github.com:oscarlmjr/chronos-pomodoro.git
+git submodule sync --recursive
+git status > git add .gitmodules > git commit -m 'Adicionando arquivos e submodule'
+git push --set-upstream origin main
+
+
+**************alterar endereço remoto
+git config -f .gitmodules submodule.chronos-pomodoro.url git@github.com:oscarlmjr/chronos-pomodoro.git
+git  submodule sync
+git submodule update --init --recursive
+
+
+**************renomear
+git mv caminho/para/nome-antigo caminho/para/nome-novo
+**************atualizar configurações internas do git
+git config -f .gitmodules submodule.nome-antigo.path caminho/para/nome-novo
+git submodule status
+git config -f .gitmodules --rename-section submodule.nome-antigo submodule.nome-novo
+git config --rename-section submodule.nome-antigo submodule.nome-novo
+git  submodule sync
+git config --file=.gitmodules submodule.<caminho-do-submodulo>.url <nova-url-remota>
+git submodule sync
+git submodule update --init --recursive --remote
+git add .gitmodules
+git commit -m "Renomeia o submódulo de nome-antigo para nome-novo"
+
+
+**************paths
+git submodule foreach -q git config remote.origin.url
+git config --file .gitmodules --get submodule.Section_8_aula403.url
+git submodule
+cat .gitmodules
+git config --file .gitmodules --list
+git config --get-regexp submodule\..*\.url
+git config --file .gitmodules --get-regexp path
+git config --file .gitmodules --get-regexp '\.url$'
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+git submodule deinit -f ./chronos-pomodoro
+git config -f .gitmodules --remove-section submodule./chronos-pomodoro
+git rm --cached ./chronos-pomodoro
+rm -rf .git/modules/chronos-pomodoro
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!git rm .gitmodules!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+git add .gitmodules
+git commit -m "Removendo submódulo e sua URL"
+git push origin main
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
