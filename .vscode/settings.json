@@ -8,20 +8,20 @@
     "breadcrumbs.enabled": false,
     "editor.stickyScroll.enabled": false,
     "[html]": {
-        "editor.tabSize": 2,
+        "editor.tabSize": 4,
         "editor.insertSpaces": true,
         "editor.suggest.insertMode": "replace"
     },
-    "[django-html]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-        "editor.suggest.insertMode": "replace"
-    },
-    "[vue]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-        "editor.suggest.insertMode": "replace"
-    },
+    // "[django-html]": {
+    //     "editor.tabSize": 2,
+    //     "editor.insertSpaces": true,
+    //     "editor.suggest.insertMode": "replace"
+    // },
+    // "[vue]": {
+    //     "editor.tabSize": 2,
+    //     "editor.insertSpaces": true,
+    //     "editor.suggest.insertMode": "replace"
+    // },
     "hediet.vscode-drawio.resizeImages": null,
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
