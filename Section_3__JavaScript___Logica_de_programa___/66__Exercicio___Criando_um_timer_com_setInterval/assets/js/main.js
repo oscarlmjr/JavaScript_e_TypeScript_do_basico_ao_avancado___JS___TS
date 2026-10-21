@@ -27,20 +27,16 @@ function atualizarRelogio() {
 };
 
 iniciar.addEventListener('click', function(event) {
-    console.log('innerHTML-i1', relogio.innerHTML);
     
     if (zerado.classList.contains('zerado')) {
-        console.log('innerHTML-i2', relogio.innerHTML);
         timer = setInterval(function () {
             relogio.innerHTML = atualizarRelogio();
         }, 1000);
     } else if (pausado.classList.contains('pausado')  && zerando) {
-        console.log('innerHTML-i3', relogio.innerHTML);
         timer = setInterval(function () {
             relogio.innerHTML = atualizarRelogio();
         }, 1000);
-    } else {
-        console.log('innerHTML-i4', relogio.innerHTML);
+    } else if (pausado.classList.contains('pausado')) {
         timer = setInterval(function () {
             relogio.innerHTML = mostraHora();
         }, 1000);
@@ -50,13 +46,11 @@ iniciar.addEventListener('click', function(event) {
 });
 
 pausar.addEventListener('click', function(event) {
-    console.log('.innerHTML-p', relogio.innerHTML);
     clearInterval(timer);
     pausado.classList.add('pausado');
 });
 
 zerar.addEventListener('click', function(event) {
-    console.log('innerHTML-z1', relogio.innerHTML);
 
     data.setHours(0, 0, 0, 0);
     clearInterval(timer);
@@ -65,20 +59,9 @@ zerar.addEventListener('click', function(event) {
     
     zerado.classList.add('zerado');
     console.log('data', data);
-    console.log('innerHTML-z2', relogio.innerHTML);
 });
 
 // pausado.classList.remove('pausado');
-    // let ano = tempo.getFullYear();
-    // let mes = tempo.getMonth() + 1;
-    // let dia = tempo.getDate();
-    
-    // data.setHours(0, 0, 0, 0);
-    // const horas = String(data.getHours()).padStart(2, '0');
-    // const minutos = String(data.getMinutes()).padStart(2, '0');
-    // const segundos = String(data.getSeconds()).padStart(2, '0');
-    // horaAtual = `${horas}:${minutos}:${segundos}`
-
 // console.log(zerado.classList.contains('classe-css'));
 // console.log('Tipo do evento:', event.type);
 // console.log('Elemento ativo (target):', event.target);
