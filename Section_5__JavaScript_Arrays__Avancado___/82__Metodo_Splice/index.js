@@ -1,0 +1,22 @@
+const nomes = ['Maria', 'João', 'Eduardo', 'Gabriel', 'Júlia'];
+// nomes.splice(índice, delete, elem1, elem2, elem3);
+
+// nomes.splice(4);
+// nomes.splice(3);
+// const removidos = nomes.splice(4, 1);
+// const removidos = nomes.splice(3, 2);
+// const removidos = nomes.splice(-1);
+// const removidos = nomes.splice(-2);
+// const removidos = nomes.splice(-2, 1);
+// const removidos = nomes.splice(-2, Number.MAX_VALUE);
+// const removidos = nomes.splice(3, 0, 'Luiz');
+// const removidos = nomes.splice(3, 1, 'Luiz');
+// const removidos = nomes.splice(3, 2, 'Luiz');
+// const removidos = nomes.splice(3, 2, 'Luiz', 'Otávio');
+// nomes.splice(nomes.length, 0, 'Luiz');
+// nomes.splice(nomes.length, 0, 'Luiz', 'Otávio');
+nomes.splice(2, 0, 'Luiz', 'Otávio');
+console.log(nomes);
+// console.log(nomes, removidos);
+// console.log(Number.MAX_VALUE);
+// console.log(nomes, removidos);
