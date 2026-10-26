@@ -1,0 +1,2 @@
+Herança em JavaScript
+https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Classes_in_JavaScript
