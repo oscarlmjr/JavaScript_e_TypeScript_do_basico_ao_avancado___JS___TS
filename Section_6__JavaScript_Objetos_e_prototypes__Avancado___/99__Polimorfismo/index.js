@@ -7,7 +7,8 @@ function Conta(agencia, conta, saldo) {
 
 Conta.prototype.sacar = function(valor) {
   if(valor > this.saldo) {
-    console.log(`Saldo insuficiente: ${this.saldo}`);
+        console.log(`Saldo insuficiente: ${this.saldo}`);
+    this.verSaldo();
     return;
   }
 
@@ -56,9 +57,8 @@ cc.sacar(110);
 cc.sacar(1);
 
 console.log();
-
 const cp = new CP(12, 33, 0);
 cp.depositar(10);
+cp.sacar(90);
 cp.sacar(10);
 cp.sacar(1);
-
