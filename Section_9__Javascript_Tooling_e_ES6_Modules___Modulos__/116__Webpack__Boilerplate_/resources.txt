@@ -1,2 +1,8 @@
 Webpack
 https://webpack.js.org/
+
+import
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import
+
+export
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export
