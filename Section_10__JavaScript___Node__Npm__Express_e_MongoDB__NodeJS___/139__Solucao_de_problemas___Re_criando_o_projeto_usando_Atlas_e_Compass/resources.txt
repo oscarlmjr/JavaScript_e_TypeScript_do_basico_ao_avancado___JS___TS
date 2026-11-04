@@ -1,0 +1,4 @@
+MongoDB Compass Download (GUI)
+https://www.mongodb.com/try/download/compass
+
+https://downloads.mongodb.com/compass/mongodb-compass-1.53.2-win32-x64.exe
