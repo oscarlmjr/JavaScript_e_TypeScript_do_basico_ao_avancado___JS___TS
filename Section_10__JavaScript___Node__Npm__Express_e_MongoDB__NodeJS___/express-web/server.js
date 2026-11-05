@@ -1,8 +1,11 @@
+require('dotenv').config();
+
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const connectString = "mongodb+srv://oscarlmjr_db_user:xwloxcojXLpbA70C@clusterjs01.xzqispj.mongodb.net"
-mongoose.connect(connectString);
+
+mongoose.connect(process.env.MONGODB_URI)
+    // .then(() => console.log('Agora que a conexão ocorreu'));
 
 const routes = require('./routes');
 const path = require('path');
