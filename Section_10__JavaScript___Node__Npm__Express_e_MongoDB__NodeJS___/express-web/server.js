@@ -4,8 +4,13 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI)
+mongoose.connect(process.env.MONGODB_URI);
     // .then(() => console.log('Agora que a conexão ocorreu'));
+    // .then(() => {
+    //     console.log('Agora que a conexão ocorreu');
+    //     app.emit('pronto');
+    // })
+    // .catch(e => console.log(e));
 
 const routes = require('./routes');
 const path = require('path');
