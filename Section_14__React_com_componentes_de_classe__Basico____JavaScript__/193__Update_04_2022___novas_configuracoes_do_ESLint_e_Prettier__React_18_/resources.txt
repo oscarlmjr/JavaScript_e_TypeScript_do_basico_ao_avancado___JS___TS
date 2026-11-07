@@ -1,0 +1,3 @@
+base-react-18-router-dom-v6-eslint-prettier
+https://github.com/luizomf/base-react-18-router-dom-v6-eslint-prettier
+
