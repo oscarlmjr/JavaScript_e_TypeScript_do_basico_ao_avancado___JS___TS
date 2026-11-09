@@ -46,14 +46,16 @@ git config --file .gitmodules --get-regexp path
 git config --file .gitmodules --get-regexp '\.url$'
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-git submodule deinit -f ./chronos-pomodoro
+**************remover
+git submodule deinit -f -- path/do/submodulo
+git rm -f path/do/submodulo
+git rm --cached .gitmodules
+rm -rf .gitmodules
+
+
 git config -f .gitmodules --remove-section submodule./chronos-pomodoro
-git rm --cached ./chronos-pomodoro
-rm -rf .git/modules/chronos-pomodoro
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!git rm .gitmodules!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 git add .gitmodules
 git commit -m "Removendo submódulo e sua URL"
 git push origin main
