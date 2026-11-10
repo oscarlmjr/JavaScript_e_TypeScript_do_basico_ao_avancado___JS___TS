@@ -1,0 +1,13 @@
+Vite
+https://vite.dev/
+
+Vite + Vanilla JS - Perfect for JavaScript, HTML, and CSS!
+https://www.youtube.com/watch?v=fR0pYguVyQA
+
+React 18 com Vite em 2022
+
+React 18 com Vite em 2022 (boilerplate com Storybook, Jest, Styled-Components, Eslint e Prettier)
+https://www.youtube.com/watch?v=HBhqkN8StNk
+
+react-router-dom-v6-youtube-video
+https://github.com/luizomf/react-router-dom-v6-youtube-video
