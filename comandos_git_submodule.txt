@@ -1,6 +1,6 @@
 https://gist.github.com/oscarlmjr/318bc7934abf34f08758ff901d1ab73d
 **************criar submodule local
-repositórios sem alterações
+**repositórios sem alterações
 cd ./projeto1
 git init
 git remote add origin git@github.com:oscarlmjr/JS_Section_15__api_rest.git
