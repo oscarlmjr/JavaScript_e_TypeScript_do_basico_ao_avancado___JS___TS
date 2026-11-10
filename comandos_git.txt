@@ -41,7 +41,7 @@ python -m venv .venv
 
 ##########################################
 
- git update-ref -d HEAD
+git update-ref -d HEAD
 
 git fetch
 git reset --hard origin/main
