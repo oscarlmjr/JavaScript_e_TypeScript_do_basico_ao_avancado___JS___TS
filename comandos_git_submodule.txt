@@ -1,6 +1,5 @@
 https://gist.github.com/oscarlmjr/318bc7934abf34f08758ff901d1ab73d
 **************criar submodule local
-**repositórios sem alterações
 cd ./projeto1
 git init
 git remote add origin git@github.com:oscarlmjr/JS_Section_15_api_rest.git
@@ -9,7 +8,7 @@ git status > git add . > git commit -m 'Adicionando arquivos e submodule'
 git push origin main >> --force
 git pull origin main >> --allow-unrelated-histories
 cd ..
-**apagar index
+**repositórios sem alterações > apagar index
 git submodule add git@github.com:oscarlmjr/JS_Section_15_api_rest.git Section_15__api_rest 
 git submodule status
 git submodule set-url Section_15__api_rest git@github.com:oscarlmjr/JS_Section_15_api_rest.git
@@ -19,7 +18,7 @@ git push --set-upstream origin main
 
 
 **************remover
->>> git submodule deinit Section_15__api_rest
+git submodule deinit Section_15__api_rest
 git rm --cached Section_15__api_rest
 rm -rf .git/modules/Section_15__api_rest 
 >>> git config --remove-section submodule.Section_15__api_rest
