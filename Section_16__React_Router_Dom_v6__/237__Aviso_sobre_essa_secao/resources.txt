@@ -11,3 +11,6 @@ https://www.youtube.com/watch?v=HBhqkN8StNk
 
 react-router-dom-v6-youtube-video
 https://github.com/luizomf/react-router-dom-v6-youtube-video
+
+react-18-vite-storybook-jest-styled-components
+https://github.com/luizomf/react-18-vite-storybook-jest-styled-components
