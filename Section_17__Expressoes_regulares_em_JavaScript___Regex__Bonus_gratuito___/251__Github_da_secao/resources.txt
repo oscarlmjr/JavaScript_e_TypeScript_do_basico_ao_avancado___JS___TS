@@ -1,0 +1,8 @@
+regexp
+https://github.com/luizomf/regexp
+
+curso-js
+https://github.com/luizomf/curso-js
+
+Expressões Regulares
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_expressions
