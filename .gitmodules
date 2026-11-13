@@ -1,3 +1,6 @@
 [submodule "Section_15__api_rest"]
 	path = Section_15__api_rest
 	url = git@github.com:oscarlmjr/JS_Section_15_api_rest.git
+[submodule "Section_18_TypeScript"]
+	path = Section_18_TypeScript
+	url = git@github.com:oscarlmjr/JS_TS_Seciton_18_TypeScript.git

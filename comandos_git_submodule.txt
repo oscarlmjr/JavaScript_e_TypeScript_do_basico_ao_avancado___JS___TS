@@ -9,7 +9,7 @@ git push --set-upstream origin main >> origin main >> --force
 git pull origin main >> --allow-unrelated-histories
 cd ..
 **repositórios sem alterações > apagar index
-git submodule add git@github.com:oscarlmjr/JS_Section_15_api_rest.git Section_15__api_rest 
+git submodule add git@github.com:oscarlmjr/JS_TS_Seciton_18_TypeScript.git Section_18_TypeScript
 git submodule status
 git submodule set-url Section_15__api_rest git@github.com:oscarlmjr/JS_Section_15_api_rest.git
 git submodule sync --recursive
@@ -21,8 +21,10 @@ git push --set-upstream origin main
 git submodule deinit Section_15__api_rest
 git rm --cached Section_15__api_rest
 rm -rf .git/modules/Section_15__api_rest 
->>> git config --remove-section submodule.Section_15__api_rest
-rm -rf .gitmodules (na raiz)
+git config --remove-section submodule.Section_15__api_rest
+**************remover a seção/entrada do submodule do arquivo .gitmodules
+git config -f .gitmodules --remove-section submodule.JS_TS_Seciton_18_TypeScript
+!!!rm -rf .gitmodules (na raiz)!!!
 
 
 **************clonar
