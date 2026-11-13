@@ -81,6 +81,7 @@
     "code-runner.ignoreSelection": true,
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
+        "typescript": "npx ts-node --files",
         "python": "./venv/bin/python -u",
         "javascript": "node",
         "php": "php",
