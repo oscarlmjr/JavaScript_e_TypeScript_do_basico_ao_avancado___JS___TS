@@ -1,4 +1,5 @@
 https://gist.github.com/oscarlmjr/318bc7934abf34f08758ff901d1ab73d
+**************criar repositório remoto
 **************criar submodule local
 cd ./projeto1
 git init
@@ -32,3 +33,10 @@ git submodule init
 git submodule update
 git clone --recursive-submodules git@github.com:oscarlmjr/JS_Section_15_api_rest.git
 
+
+**************alterar endereço remoto
+git submodule set-url Section_18_TypeScript git@github.com:oscarlmjr/JS_TS_Section_18_TypeScript.git
+git submodule sync --recursive
+git submodule update --init --recursive --remote
+git add .gitmodules
+git commit -m "Atualiza URL remota do submodule"

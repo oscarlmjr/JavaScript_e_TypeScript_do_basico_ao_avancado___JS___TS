@@ -4,3 +4,6 @@
 [submodule "Section_18_TypeScript"]
 	path = Section_18_TypeScript
 	url = git@github.com:oscarlmjr/JS_TS_Section_18_TypeScript.git
+[submodule "Section_29__blog-strapi"]
+	path = Section_29__blog-strapi
+	url = git@github.com:oscarlmjr/JS_TS_Section_29_blog-strapi.git
