@@ -1,0 +1,9 @@
+PostgreSQL Downloads
+https://www.postgresql.org/download/
+
+Install Docker Engine
+https://docs.docker.com/engine/install/
+
+postgres
+Docker Official Image
+https://hub.docker.com/_/postgres
