@@ -1,0 +1,2 @@
+ESLint Configuration Migrator
+https://www.npmjs.com/package/@eslint/migrate-config
