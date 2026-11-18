@@ -1,2 +1,14 @@
 DBeaver Community
 https://dbeaver.io/download/
+
+
+**************acessar nome de usuários direto do terminal
+docker exec -it mysql_knex mysql -u root -p -e "SELECT User, Host FROM mysql.user;"
+**************acessar terminal do container docker
+docker ps -a
+docker ps --format "{{.Names}}"
+docker exec -it mysql_knex mysql -u root -p
+**************comandos MySQL
+SELECT User FROM mysql.user; (Listar nomes de usuários)
+SELECT User, Host FROM mysql.user; (Listar usuários e hosts de acesso)
+SELECT CURRENT_USER(); (usuário atual da sessão)
