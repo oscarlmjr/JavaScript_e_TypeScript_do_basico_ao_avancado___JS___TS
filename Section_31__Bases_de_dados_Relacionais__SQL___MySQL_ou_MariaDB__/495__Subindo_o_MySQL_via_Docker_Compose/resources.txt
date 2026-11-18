@@ -1,0 +1,6 @@
+mysql
+Docker Official Image
+https://hub.docker.com/_/mysql
+
+Arquivo docker-compose.yml
+https://raw.githubusercontent.com/luizomf/sql-e-knex/master/docker-compose.yml

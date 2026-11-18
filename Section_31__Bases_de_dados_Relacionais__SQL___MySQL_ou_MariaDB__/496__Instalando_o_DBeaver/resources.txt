@@ -1,0 +1,2 @@
+DBeaver Community
+https://dbeaver.io/download/
