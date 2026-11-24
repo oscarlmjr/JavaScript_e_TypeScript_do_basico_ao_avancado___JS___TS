@@ -1,0 +1,5 @@
+MDN
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/strong
+
+Qualificar links externos para o Google
+https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links?hl=pt-br#sponsored
