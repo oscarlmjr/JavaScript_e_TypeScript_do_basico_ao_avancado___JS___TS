@@ -4,16 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu HTML</title>
+  <style>
+    .img-in-text {
+      height: 50px;
+      width: 50px;
+    }
+    .vermelho {
+      font-size: 24px;
+      color: red;
+    }
+  </style>
 </head>
-<body>
-  <h1>Meu título</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aperiam minus
+<body>  
+  <h1>Cabeçalho</h1>
+  <p><b>Lorem</b> <strong>ipsum</strong> <i>dolor</i> <em>aammoooo</em> amet 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/strong" target="_blank">
+    <img class="img-in-text" src="https://iconape.com/wp-content/files/ad/273812/png/273812.png" 
+    alt="Logo da MDN" width="50" height="44"></a>consectetur 
+    adipisicing elit. Sit aperiam minus obcaecati cumque excepturi quisquam 
+      odit, adipisci facere explicabo a, ex maiores perferendis quaerat 
+      cupiditate eaque at est error aut.</p>
+  <hr>
+  <p><span class="vermelho"><del>Lorem</del></span> <s>ipsum</s> <ins>dolor</ins> <u>sit</u> 
+    <small>consectetur</small> m<sup>2</sup> H<sub>2</sub>O 
+    <q>adipisicing elit.</q> Sit <code>console.log</code> aperiam minus
      obcaecati cumque excepturi quisquam odit, adipisci facere explicabo a, ex
       maiores perferendis quaerat cupiditate eaque at est error aut.</p>
-  <h2>Meu título</h2>
-  <h3>Meu título</h3>
-  <h4>Meu título</h4>
-  <h5>Meu título</h5>
-  <h6>Meu título</h6>
+
+  <div class="vermelho">Eu sou um bloco</div>
+  <pre>
+    <code>
+      number = '123'
+      d = i = ''
+      for n in number:
+          i, d = n, i
+          i += d
+          print(i)
+    </code>
+  </pre>
+      
+  <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/strong">
+    <p>Aqui sim eu estou fazendo um bloco de citação.</p>
+  </blockquote>
 </body>
 </html>
