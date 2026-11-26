@@ -1,37 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    html, body {
+    * {
       margin: 0;
       padding: 0;
-      width: 100%;
-      height: 100%;
     }
 
     body {
-      background: 
-      linear-gradient(to bottom, rgba(0, 0, 0, 0.98) 0%, rgba(0, 0, 0, 0.7) 20%),
-       url("./img/BR-pt-20261116-TRIFECTA-perspective_ee79a482-2a06-48f4-bd49-fc9fe18270ff_large.jpg");
+      background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/26b49bdf-9cd6-4414-aef6-c4e30cab8f78/web/BR-pt-20261123-TRIFECTA-perspective_3afdb186-9cfc-4f84-ad7d-cd8bbb6f3dee_large.jpg);
       background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+      background-position: top center;
     }
 
-    .logo {
-      max-width: 190px;
-      width: 90%;
-      height: auto;
-      margin-left: 125px;
-      filter: hue-rotate(10deg);
+    #heading {
+      background-color: rgba(0, 0, 0, 0.8);
+      /* background-color: rgb(229, 9, 20); */
     }
 
+    #heading div {
+      width: 92%;
+      display: flex;
+      /* background: blue; */
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+
+    #heading .h1 {
+      padding: 20px 0;
+      /* padding: 20px 10px 0 50px; */
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+
+    #heading a {
+      /* color: #fff; */
+      color: red;
+      text-decoration: none;
+      font-family: sans-serif;
+    }
   </style>
 </head>
 <body>
-  <img class="logo" alt="Imagem de fundo" src="./img/Netflix_Logo_PMS.png">  
+  <header id="heading">
+    <div>
+      <h1 class="h1">
+        <a href="#">Netflix</a>
+      </h1>
+      <h2 class="h1">
+        <a href="#">Netflix</a>
+      </h2>
+    </div>
+  </header>
 </body>
 </html>
+<!-- body {
+  /* background-image: ; */
+  background-size: cover;
+  background-position: top center;
+}
+#heading {
+  background: rgba(0, 0, 0, 0.7);
+}
+#heading div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
